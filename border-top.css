@@ -1,0 +1,15 @@
+/* When we don't set border-top-color, color of a text is used as a default */
+.one {
+  color: #6CC644;
+  border-top: medium solid;
+}
+
+/* When we don't set border-top-style, default style <none> will be used - therefor no border-top will be rendered */
+.two {
+  border-top: 1px red;
+}
+
+/* Other border-top style example */
+.three {
+  border-top: dotted 2px red;
+}
